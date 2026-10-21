@@ -1,0 +1,27 @@
+{
+  "release": "Streamlit results dashboard; 200,000 steps per PPO",
+  "project_code_executed": false,
+  "training_evaluation_tests_executed": false,
+  "training_timesteps_per_ppo": 200000,
+  "data_source": "Original synthetic data/processed",
+  "previous_model_weights_or_results_included": false,
+  "preserved_original_file_hashes": {
+    "data/processed/profiles.csv": "57576653e59563d07c03a42143d94e830a8234266509a748f459d9aae78d9879",
+    "data/processed/provenance.json": "ad6fb04f6e7e39f6245e713fa2cd321e8128569b735344f924494b2f1268c855",
+    "data/processed/test.csv": "e01357fe0f0870382bf848b3737e3e042a5fa5b3d5d9a9c8308b67e4994aff7f",
+    "data/processed/train.csv": "00e9f1ffc4017be6fac8c14706f8ee30204c88d01a354931d60694dcf8a743f1",
+    "data/processed/validation.csv": "44b716bebb5158640cfa1f1b26107e9eda683bbdcb6d1395802ae5d1cf0dcf72",
+    "src/smart_grid/controllers/__init__.py": "b41b0198fac03161e3dccb3ff7be3aac39a72ec2242045f6e32f8512ed941f77",
+    "src/smart_grid/controllers/rule_based.py": "79d5c3b970da795a47894ec8f27d4fed8d82cdc18c2b791503796539fbe5b1f6",
+    "src/smart_grid/envs/__init__.py": "a0ad55551787e36798e520f34fc6db770dba5ae127b502351d7b19d5792d7145",
+    "src/smart_grid/envs/delay.py": "13d385daec24c7ef02f98a00066a0b1816d62db10d762bba0b66b2a472f4c27c",
+    "src/smart_grid/envs/smart_grid_env.py": "89a7cf86fefd4627ea45c42c3350f679122dd63e503ab3ff04def4402fb6b14f",
+    "src/smart_grid/grid/__init__.py": "d60fcc8a6e1a85288f3d21fb3f1fec831b60295e0a780122942fcab4de96633b",
+    "src/smart_grid/grid/battery.py": "c64de471fb3318fccc057abc64da37bde886f5f140a34817aa0b93614c59c715",
+    "src/smart_grid/grid/frequency.py": "45636bb09f66d281e2efda380f5de3237290926b2e890541f156ad22fb41c049",
+    "src/smart_grid/grid/topology.py": "b7b20126f3bcab118a953d30b0cbe28ee734b661cebb5f7e1568714fbd622de2"
+  },
+  "dashboard_entrypoint": "dashboard.py",
+  "dashboard_runtime_verified": false,
+  "validation": "Static source review and syntax parsing only; no project execution"
+}

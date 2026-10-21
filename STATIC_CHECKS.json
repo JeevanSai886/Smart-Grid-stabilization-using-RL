@@ -1,0 +1,12 @@
+{
+  "python_files_syntax_parsed": 42,
+  "preserved_original_hashes_verified": 14,
+  "training_budget_per_ppo": 200000,
+  "rollouts_per_ppo": 200,
+  "total_ppo_training_steps": 600000,
+  "project_code_executed": false,
+  "tests_executed": false,
+  "dashboard_launched": false,
+  "runtime_dependencies_installed": false,
+  "scope": "Static syntax/configuration/byte-preservation checks only"
+}

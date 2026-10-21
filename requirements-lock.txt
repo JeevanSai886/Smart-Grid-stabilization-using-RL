@@ -1,0 +1,69 @@
+# Historical simulation-stack snapshot from the supplied archive.
+# Not a lock for the dashboard release; use requirements.txt / pip install -e .
+# The dashboard dependency resolution has not been executed.
+# Tested on Windows x64, Python 3.12.14. Install CPU torch first; see README.md.
+# Generated from the validated project virtual environment.
+absl-py==2.5.0
+annotated-types==0.8.0
+cachebox==5.2.3
+certifi==2026.7.22
+charset-normalizer==3.5.1
+cloudpickle==3.1.2
+colorama==0.4.6
+contourpy==1.3.3
+cycler==0.12.1
+deepdiff==9.1.0
+Farama-Notifications==0.0.6
+filelock==3.32.3
+fonttools==4.64.0
+fsspec==2026.7.0
+geojson==3.3.0
+grpcio==1.83.1
+gymnasium==1.3.0
+idna==3.19
+iniconfig==2.3.0
+Jinja2==3.1.6
+kiwisolver==1.5.1
+llvmlite==0.48.0
+Markdown==3.10.3
+MarkupSafe==3.0.3
+matplotlib==3.11.1
+mpmath==1.3.0
+mypy_extensions==1.1.0
+networkx==3.6.1
+numba==0.66.0
+numpy==2.3.5
+orderly-set==5.5.0
+packaging==26.3
+pandapower==3.5.4
+pandas==2.3.3
+pandera==0.33.1
+pillow==12.3.0
+pluggy==1.6.0
+protobuf==7.36.1
+pydantic==2.13.5
+pydantic_core==2.46.5
+Pygments==2.21.0
+pyparsing==3.3.2
+pytest==9.1.1
+python-dateutil==2.9.0.post0
+pytz==2026.3.post1
+PyYAML==6.0.3
+requests==2.34.2
+scipy==1.18.1
+setuptools==78.1.0
+six==1.17.0
+stable_baselines3==2.9.0
+sympy==1.14.0
+tensorboard==2.21.0
+tensorboard-data-server==0.7.2
+torch==2.8.0+cpu
+tqdm==4.70.0
+typeguard==4.6.0
+typing-inspect==0.9.0
+typing-inspection==0.4.4
+typing_extensions==4.16.0
+tzdata==2026.3
+urllib3==2.7.0
+Werkzeug==3.1.8
+-e .

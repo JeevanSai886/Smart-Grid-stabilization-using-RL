@@ -1,0 +1,20 @@
+pandapower==3.5.4
+numpy==2.3.5
+pandas==2.3.3
+numba==0.66.0
+gymnasium==1.3.0
+stable-baselines3==2.9.0
+torch==2.8.0
+matplotlib==3.11.1
+tensorboard==2.21.0
+PyYAML==6.0.3
+requests==2.34.2
+pytest==9.1.1
+streamlit<2,>=1.42
+plotly<7,>=5.24
+
+[:python_version < "3.12"]
+scipy==1.16.3
+
+[:python_version >= "3.12"]
+scipy==1.18.1
