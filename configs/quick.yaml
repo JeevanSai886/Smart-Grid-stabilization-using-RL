@@ -1,0 +1,3 @@
+# Compatibility alias. Training uses the same full 200,000-step budget.
+training:
+  total_timesteps: 200000

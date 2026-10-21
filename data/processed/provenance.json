@@ -1,0 +1,37 @@
+{
+  "requested_source": "synthetic",
+  "actual_source": "synthetic",
+  "source_url": null,
+  "fallback_reason": null,
+  "seed": 42,
+  "profile_interval_seconds": 300,
+  "fast_variation": "Generated separately in the environment; never measured subsecond data",
+  "scaling": {
+    "train_only_scales": {},
+    "renewable_rows_clipped": {
+      "solar_cf": 0,
+      "wind_cf": 0
+    },
+    "custom_scaling_note": "99th percentile MW is a profile normalization proxy, not measured installed capacity"
+  },
+  "partitions": {
+    "train": {
+      "rows": 6048,
+      "start": "2018-01-01 00:00:00+00:00",
+      "end": "2018-01-21 23:55:00+00:00",
+      "sha256": "00e9f1ffc4017be6fac8c14706f8ee30204c88d01a354931d60694dcf8a743f1"
+    },
+    "validation": {
+      "rows": 1296,
+      "start": "2018-01-22 00:00:00+00:00",
+      "end": "2018-01-26 11:55:00+00:00",
+      "sha256": "44b716bebb5158640cfa1f1b26107e9eda683bbdcb6d1395802ae5d1cf0dcf72"
+    },
+    "test": {
+      "rows": 1296,
+      "start": "2018-01-26 12:00:00+00:00",
+      "end": "2018-01-30 23:55:00+00:00",
+      "sha256": "e01357fe0f0870382bf848b3737e3e042a5fa5b3d5d9a9c8308b67e4994aff7f"
+    }
+  }
+}

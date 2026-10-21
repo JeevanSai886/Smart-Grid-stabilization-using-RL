@@ -1,0 +1,3 @@
+# The default configuration is the complete, compact synthetic-data experiment.
+training:
+  total_timesteps: 200000
